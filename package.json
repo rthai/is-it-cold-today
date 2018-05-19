@@ -1,0 +1,28 @@
+{
+  "name": "is-it-cold-today",
+  "version": "1.0.0",
+  "description": "Scared of being cold? Always forget to bring a jacket? Find out if you need to bring a jacket with you today.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rthai/is-it-cold-today.git"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "rthai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rthai/is-it-cold-today/issues"
+  },
+  "homepage": "https://github.com/rthai/is-it-cold-today#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.0"
+  }
+}

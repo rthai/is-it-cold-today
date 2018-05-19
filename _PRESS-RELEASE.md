@@ -17,28 +17,28 @@ Once the project moves into development, the press release can be used as a touc
  -->
  
 ## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
+  > Is It Cold Today?
 
 ## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  > Scared of being cold? Always forget to bring a jacket? Find out if you need to bring a jacket with you today. 
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  > Tells you if it is cold backed by weather forcast and some outerwear options.
 
 ## Problem ##
-  > Describe the problem your product solves.
+  > Prevent people from catching a cold. 
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+  > A one stop destination for weather information and outerwear options. 
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
+  > Turn up the heat even in the coldest weather. 
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+  > Work with sample weather data first to build features.  
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  > I check this website every morning, so I don't look like a hot mess. 
 
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
