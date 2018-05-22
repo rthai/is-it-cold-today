@@ -38,7 +38,7 @@ Once the project moves into development, the press release can be used as a touc
   > Work with sample weather data first to build features.  
 
 ## Customer Quote ##
-  > I check this website every morning, so I don't look like a hot mess. 
+  > I check this website every morning, so I'm not cold.
 
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
