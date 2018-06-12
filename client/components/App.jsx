@@ -15,6 +15,7 @@ class App extends React.Component {
 
     this.onChange = this.onChange.bind(this);
     this.getWeather = this.getWeather.bind(this);
+    this.handleEnterKey = this.handleEnterKey.bind(this);
   }
 
   changeView(view) {
@@ -27,7 +28,7 @@ class App extends React.Component {
   renderView() {
     const view = this.state.view;
     if (view === "home") {
-      return <Search getWeather={this.getWeather} onChange={this.onChange} searchText={this.state.searchText}/>
+      return <Search getWeather={this.getWeather} onChange={this.onChange} searchText={this.state.searchText} handleEnterKey={this.handleEnterKey}/>
     } else if (view === "city") {
       return <City city={this.state.searchText} weather={this.state.cityWeather}/>
     }
@@ -35,6 +36,12 @@ class App extends React.Component {
 
   onChange(e) {
     this.setState({searchText: e.target.value});
+  }
+
+  handleEnterKey(e) {
+    if (e.key === 'Enter') {
+      this.getWeather(this.state.searchText);
+    }
   }
 
   getWeather(city) {
@@ -48,7 +55,7 @@ class App extends React.Component {
     return(    
       <div className="main">
         <a onClick={() => this.changeView('home')}>
-          <h1 class="cover-heading">Is it Cold Today?</h1>
+          <h1 className="cover-heading">Is it Cold Today?</h1>
         </a>
         {this.renderView()}
       </div>
