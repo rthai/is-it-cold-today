@@ -1,21 +1,4 @@
-.input-group {
-  width: 65%;
-  margin: auto;
-}
-
-.size {
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.city > .container {
-  margin-top: 25px;
-}
-
-.weather {
-  background-color: rgba(255, 255, 255, 0.4);
-}
-
+/* BACKGROUNDS */
 .Sunny {
   background-image: url("./images/sunny.jpeg");
 }
@@ -36,10 +19,28 @@
   background-image: url("./images/rain.jpeg");
 }
 
-.Thunder {
+.Thunderstorm {
   background-image: url("./images/thunder.jpeg");
 }
 
 .Clear {
   background-image: url("./images/clear.jpeg");
+}
+
+.input-group {
+  width: 65%;
+  margin: auto;
+}
+
+.size {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.city > .container {
+  margin-top: 25px;
+}
+
+.weather {
+  background-color: rgba(255, 255, 255, 0.4);
 }
