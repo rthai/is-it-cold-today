@@ -1,7 +1,7 @@
 ## Is it Cold Today? ##
 
 > A minimalist weather app.
-> Scared of being cold? Always forget to bring a jacket? Find out if you need to bring a jacket with you today. 
+> Scared of being cold? Always forget to bring a jacket? Find out if you need to bring a jacket or sweater with you when you go out today. 
 
 ## Table of Contents
 
