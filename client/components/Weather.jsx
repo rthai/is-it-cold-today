@@ -8,18 +8,18 @@ class Weather extends React.Component {
   componentWillMount() {
     let name = "text-center size ";
     let description = this.props.weather.weather[0].main;
-    let weatherBg = ['Sunny', 'Haze', 'Mist', 'Clouds', 'Rain', 'Thunder', 'Clear'];
+    let weatherBg = ['Sunny', 'Haze', 'Mist', 'Clouds', 'Rain', 'Thunder', 'Thunderstorm', 'Clear'];
     
     if (weatherBg.includes(this.props.weather.weather[0].main)) {
       name += description;  
-      document.body.className= name; 
+      document.body.className = name; 
     }
   }
 
   render() {
     let name = "text-center size ";
     let description = this.props.weather.weather[0].main;
-    let weatherBg = ['Sunny', 'Haze', 'Mist', 'Clouds', 'Rain', 'Thunder'];
+    let weatherBg = ['Sunny', 'Haze', 'Mist', 'Clouds', 'Rain', 'Thunderstorm', 'Thunder'];
     if (weatherBg.includes(this.props.weather.weather[0].main)) {
       name += description;  
       document.body.className= name; 
