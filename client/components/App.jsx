@@ -45,6 +45,10 @@ class App extends React.Component {
   }
 
   getWeather(city) {
+    if (city === '') {
+      alert('Please enter a city name.');
+    }
+
     axios.get(`/api/${city}`)
       .then(response => this.setState({cityWeather: response.data}))
       .then(() =>  this.changeView('city'))
