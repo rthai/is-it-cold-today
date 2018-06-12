@@ -19,7 +19,7 @@
   background-image: url("./images/rain.jpeg");
 }
 
-.Thunderstorm {
+.Thunderstorm, .Thunder {
   background-image: url("./images/thunder.jpeg");
 }
 
@@ -43,4 +43,11 @@
 
 .weather {
   background-color: rgba(255, 255, 255, 0.4);
+}
+
+.btn {
+  border: 1px solid #ced4da !important;
+  border-left: 0px !important;
+  border-top-left-radius: 0rem !important;
+  border-bottom-left-radius: 0rem !important;
 }
